@@ -1,7 +1,7 @@
 package com.garethabrahams;
 import java.util.*;
 /**
- * DVD Application!
+ * DVDInterface Application!
  *
  */
 public class addDVD
@@ -9,29 +9,37 @@ public class addDVD
     List dvdList = new ArrayList();
     Set dvdSet = new HashSet();
     Map dvdMap = new HashMap();
-    Collection<DVD> dvdcollect;
+    Collection<DVDInterface> dvdcollect;
 
 
         public void addDVDList() {
-            DVD Speed = new DVD("Speed", "Action");
-            dvdList.add(Speed);
+            DVDInterface Speed = new DVDServiceImpl();
+            String name = "Speed";
+            Speed.createDVD(name);
+            dvdList.add(Speed.getDvdName());
         }
 
         public  void addDVDSet() {
-
-            DVD Jumanji = new DVD("Jumanji", "Comedy");
-            dvdSet.add(Jumanji);
+            DVDInterface Jumanji = new DVDServiceImpl();
+            String name = "Jumanji";
+            Jumanji.createDVD(name);
+            dvdSet.add(Jumanji.getDvdName());
         }
 
         public void addDVDMap() {
-            DVD NextFriday = new DVD("Next Friday", "Horror");
-            dvdMap.put(NextFriday.getCatergory(), NextFriday);
+            DVDInterface Next_Friday = new DVDServiceImpl();
+            String name = "Next Friday";
+            Next_Friday.createDVD(name);
+            dvdMap.put(0,Next_Friday.getDvdName());
         }
 
         public void addDVDCollect(){
-        dvdcollect = new HashSet<DVD>();
-        DVD Creed = new DVD("Creed", "Action");
-        dvdcollect.add(Creed);
+            dvdcollect = new HashSet<DVDInterface>();
+            DVDInterface Creed = new DVDServiceImpl();
+            String name = "Creed";
+            Creed.createDVD(name);
+            dvdSet.add(Creed.getDvdName());
+
         }
 
 

@@ -1,6 +1,5 @@
 package com.garethabrahams;
 
-import junit.framework.TestListener;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -11,13 +10,14 @@ import static org.junit.Assert.*;
 public class addDVDTest {
 
     @Test
-    public void addDVDList(){
-
+    public void addDVDList() {
         List dvdList = new ArrayList();
         List dvdList2 = new ArrayList();
-        DVD Speed = new DVD("Speed", "Action");
-        dvdList.add(Speed);
-        dvdList2.add(Speed);
+        DVDInterface Speed = new DVDServiceImpl();
+        String name = "Speed";
+        Speed.createDVD(name);
+        dvdList.add(Speed.getDvdName());
+        dvdList2.add(name);
 
         Assert.assertEquals(dvdList,dvdList2);
     }
@@ -26,9 +26,11 @@ public class addDVDTest {
     public void addDVDSet() {
         Set dvdSet = new HashSet();
         Set dvdSet2 = new HashSet();
-        DVD Jumanji = new DVD("Jumanji", "Comedy");
-        dvdSet.add(Jumanji);
-        dvdSet2.add(Jumanji);
+        DVDInterface Jumanji = new DVDServiceImpl();
+        String name = "Jumanji";
+        Jumanji.createDVD(name);
+        dvdSet.add(Jumanji.getDvdName());
+        dvdSet2.add(name);
 
         Assert.assertEquals(dvdSet,dvdSet2);
     }
@@ -37,20 +39,24 @@ public class addDVDTest {
     public void addDVDMap() {
         Map dvdMap = new HashMap();
         Map dvdMap2 = new HashMap();
-        DVD NextFriday = new DVD("Next Friday", "Horror");
-        dvdMap.put(NextFriday.getCatergory(), NextFriday);
-        dvdMap2.put(NextFriday.getCatergory(), NextFriday);
+        DVDInterface Next_Friday = new DVDServiceImpl();
+        String name = "Next Friday";
+        Next_Friday.createDVD(name);
+        dvdMap.put(0,Next_Friday.getDvdName());
+        dvdMap2.put(0,name);
 
         Assert.assertEquals(dvdMap,dvdMap2);
     }
 
     @Test
     public void addDVDCollect() {
-        Collection<DVD> dvdcollect;
-        Collection<DVD> dvdcollect2;
-        dvdcollect = new HashSet<DVD>();
-        dvdcollect2 = new HashSet<DVD>();
-        DVD Creed = new DVD("Creed", "Action");
+        Collection<DVDInterface> dvdcollect;
+        Collection<DVDInterface> dvdcollect2;
+        dvdcollect = new HashSet<DVDInterface>();
+        dvdcollect2 = new HashSet<DVDInterface>();
+        String name = "Creed";
+        DVDInterface Creed = new DVDServiceImpl();
+        Creed.createDVD(name);
         dvdcollect.add(Creed);
         dvdcollect2.add(Creed);
 
