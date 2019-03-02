@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a75c83a0-f353-4a02-a37e-c23139ead596" name="Default Changelist" comment="" />
+    <list default="true" id="a75c83a0-f353-4a02-a37e-c23139ead596" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/garethabrahams/addDVDTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/InterfaceAssignment2.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/garethabrahams/addDVD.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/InterfaceAssignment2.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/garethabrahams/addDVDTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/garethabrahams/addDVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/garethabrahams/addDVD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/garethabrahams/DVD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/garethabrahams/DVD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/garethabrahams/AppTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,11 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/garethabrahams/addDVD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+            <state relative-caret-position="96">
+              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/garethabrahams/addDVDTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -24,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/garethabrahams/DVD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="51">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
               <folding>
                 <element signature="e#232#233#0" expanded="true" />
                 <element signature="e#262#263#0" expanded="true" />
@@ -50,6 +69,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -57,6 +84,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/garethabrahams/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/garethabrahams/DVD.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/garethabrahams/addDVD.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/garethabrahams/addDVDTest.java" />
       </list>
     </option>
   </component>
@@ -68,11 +96,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1391" />
+    <option name="x" value="-1745" />
     <option name="y" value="-8" />
     <option name="width" value="1245" />
     <option name="height" value="686" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -90,40 +119,6 @@
               <item name="InterfaceAssignment2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="InterfaceAssignment2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InterfaceAssignment2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InterfaceAssignment2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InterfaceAssignment2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InterfaceAssignment2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InterfaceAssignment2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="garethabrahams" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InterfaceAssignment2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InterfaceAssignment2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InterfaceAssignment2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InterfaceAssignment2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -135,7 +130,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551048143049" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551553954408" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -161,9 +156,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="addDVD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.garethabrahams.addDVD" />
+  <component name="RunManager" selected="JUnit.addDVDTest">
+    <configuration name="addDVDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InterfaceAssignment2" />
       <extension name="coverage">
         <pattern>
@@ -171,13 +165,84 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.garethabrahams" />
+      <option name="MAIN_CLASS_NAME" value="com.garethabrahams.addDVDTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="addDVDTest.addDVDCollect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InterfaceAssignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.garethabrahams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.garethabrahams" />
+      <option name="MAIN_CLASS_NAME" value="com.garethabrahams.addDVDTest" />
+      <option name="METHOD_NAME" value="addDVDCollect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="addDVDTest.addDVDList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InterfaceAssignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.garethabrahams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.garethabrahams" />
+      <option name="MAIN_CLASS_NAME" value="com.garethabrahams.addDVDTest" />
+      <option name="METHOD_NAME" value="addDVDList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="addDVDTest.addDVDMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InterfaceAssignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.garethabrahams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.garethabrahams" />
+      <option name="MAIN_CLASS_NAME" value="com.garethabrahams.addDVDTest" />
+      <option name="METHOD_NAME" value="addDVDMap" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="addDVDTest.addDVDSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InterfaceAssignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.garethabrahams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.garethabrahams" />
+      <option name="MAIN_CLASS_NAME" value="com.garethabrahams.addDVDTest" />
+      <option name="METHOD_NAME" value="addDVDSet" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.addDVD" />
+        <item itemvalue="JUnit.addDVDTest" />
+        <item itemvalue="JUnit.addDVDTest.addDVDCollect" />
+        <item itemvalue="JUnit.addDVDTest.addDVDMap" />
+        <item itemvalue="JUnit.addDVDTest.addDVDSet" />
+        <item itemvalue="JUnit.addDVDTest.addDVDList" />
       </list>
     </recent_temporary>
   </component>
@@ -191,16 +256,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551045205304</updated>
-      <workItem from="1551045209593" duration="2828000" />
+      <workItem from="1551045209593" duration="10782000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="addDVDTest_addDVDList - 2019.02.27 at 18h 56m 16s.xml">
+      <configuration name="addDVDTest.addDVDList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="addDVDTest_addDVDList - 2019.03.02 at 21h 00m 39s.xml">
+      <configuration name="addDVDTest.addDVDList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="addDVDTest_addDVDSet - 2019.03.02 at 21h 02m 36s.xml">
+      <configuration name="addDVDTest.addDVDSet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="addDVDTest_addDVDMap - 2019.03.02 at 21h 04m 20s.xml">
+      <configuration name="addDVDTest.addDVDMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="addDVDTest_addDVDCollect - 2019.03.02 at 21h 05m 35s.xml">
+      <configuration name="addDVDTest.addDVDCollect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="addDVDTest - 2019.03.02 at 21h 12m 00s.xml">
+      <configuration name="addDVDTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2828000" />
+    <option name="totallyTimeSpent" value="10782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -209,15 +293,15 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" weight="0.497545" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21776815" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -249,8 +333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/garethabrahams/DVD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="51">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
           <folding>
             <element signature="e#232#233#0" expanded="true" />
             <element signature="e#262#263#0" expanded="true" />
@@ -266,8 +350,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/garethabrahams/addDVD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        <state relative-caret-position="96">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/garethabrahams/addDVDTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
         </state>
       </provider>
     </entry>
